@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,40 +11,42 @@
     <!-- Local css -->
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <h1 class="title">Age in Days</h1>
+        <h1 class="title">Age in Days</h1>
 
-    <div class="flexbox-container-1">
+        <div class="flexbox-container-1">
 
-        <div>
+            <div>
 
-            <button class="btn btn-primary getBirthYear">Click Me!</button>
+                <button class="btn btn-primary getBirthYear">Click Me!</button>
+
+            </div>
+
+            <div>
+
+                <button class="btn btn-danger resetResult">reset</button>
+
+            </div>
 
         </div>
 
-        <div>
+        <div class="flexbox-container-1">
+            <div id="flexbox-result">
 
-            <button class="btn btn-danger resetResult">reset</button>
-
+            </div>
         </div>
 
     </div>
 
-    <div class="flexbox-container-1">
-       <div id="flexbox-result">
 
-       </div>
-    </div>
-
-</div>
-    
-    
     <script src="jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.js"></script>
     <!-- Author Defined Scripts  -->
     <script src="scripts.js"></script>
 </body>
+
 </html>
