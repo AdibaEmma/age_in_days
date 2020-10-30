@@ -1,0 +1,40 @@
+body {
+    margin: none;
+    padding: none;
+    background-color: rgba(255, 249, 241, 0.932);
+}
+
+.container {
+    border: 1px solid black;
+}
+.title {
+    width: 40%;
+    margin: 0 40%;
+    
+}
+
+.flexbox-container-1 {
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 20px 0 25px 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flexbox-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+#flexbox-result {
+    border: none;   
+}
+
+.show-flexbox-results {
+    display: flex;
+    background-color: cadetblue;
+    border-radius: 8px;
+}
